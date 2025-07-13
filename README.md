@@ -31,3 +31,35 @@ This project is a **GenAI-powered document assistant** built using **Cohere API*
 
 ## 🗂️ Folder Structure
 
+├── app.py
+├── .env # Add your COHERE_API_KEY here
+├── utils/
+│ ├── parser.py # Extracts text from PDF/TXT
+│ ├── qa.py # Embeds, finds chunks, answers
+│ └── challenge.py # Creates & evaluates questions
+
+
+## 🧪 How to Run
+
+> ⚠️ Requires Python 3.10+ and internet access
+
+1. **Clone the repo**
+```bash
+git clonehttps://github.com/19anujshukla/Smart-Research-Assistant
+cd smart-research-assistant
+
+Install dependencies
+
+pip install -r requirements.txt
+
+
+Create .env file with your Cohere API key:
+
+COHERE_API_KEY=your-api-key-here
+
+
+Launch the app
+
+streamlit run app.py
+
+
