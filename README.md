@@ -35,9 +35,9 @@ An intelligent Streamlit-based assistant that lets you interact with PDF documen
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/pdf-ai-assistant.git
+git clone https://github.com/19anujshukla/Smart-Research-Assistant
 cd pdf-ai-assistant
 
 pip install -r requirements.txt
 
-export OPENAI_API_KEY="your-openai-api-key"
+export OPENAI_API_KEY="foYE8RLxsvisp7MHNoS9fpldZgWvT86El9x2q4ZU"
