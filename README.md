@@ -47,19 +47,20 @@ This project is a **GenAI-powered document assistant** built using **Cohere API*
 ```bash
 git clonehttps://github.com/19anujshukla/Smart-Research-Assistant
 cd smart-research-assistant
+```
 
-Install dependencies
-
+✅ Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 
 Create .env file with your Cohere API key:
-
-COHERE_API_KEY=your-api-key-here
-
+```bash
+COHERE_API_KEY=foYE8RLxsvisp7MHNoS9fpldZgWvT86El9x2q4ZU
+```
 
 Launch the app
-
-streamlit run app.py
-
+```bash
+python -m streamlit run app.py
+```
 
