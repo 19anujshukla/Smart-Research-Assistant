@@ -28,15 +28,19 @@ This project is a **GenAI-powered document assistant** built using **Cohere API*
 ---
 
 
+🗂️ Folder Structure
+```bash
+genai_assistant/
+├── app.py                      # Main Streamlit app (entry point)
+├── .env                        # Add your COHERE_API_KEY here
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
+├── utils/                      # Utility modules
+│   ├── parser.py               # Extracts text from PDF/TXT
+│   ├── qa.py                   # Embeds, finds chunks, answers
+│   └── challenge.py            # Creates & evaluates questions
+```
 
-## 🗂️ Folder Structure
-
-├── app.py
-├── .env # Add your COHERE_API_KEY here
-├── utils/
-│ ├── parser.py # Extracts text from PDF/TXT
-│ ├── qa.py # Embeds, finds chunks, answers
-│ └── challenge.py # Creates & evaluates questions
 
 
 ## 🧪 How to Run
