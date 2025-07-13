@@ -1,43 +1,33 @@
-# Smart-Research-Assistant
-Smart Assistant For research Summarization
+# 📄 Smart Assistant for Research Summarization
 
-
-
-# 🧠 PDF AI Assistant
-
-An intelligent Streamlit-based assistant that lets you interact with PDF documents using natural language queries. Powered by OpenAI and FAISS, it allows fast, context-aware answers from large documents.
+This project is a **GenAI-powered document assistant** built using **Cohere API** and **Streamlit**. It helps users summarize uploaded documents, ask context-aware questions, and take personalized AI-generated challenges with instant feedback — all in one place.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-- 📄 Upload and analyze PDF files
-- 💬 Ask questions and get accurate, context-based answers
-- ⚡ Fast similarity search using FAISS
-- 🧠 Semantic understanding via OpenAI's embeddings
-- 🖥️ Clean and easy-to-use UI with Streamlit
-
----
-
-## 🛠 Tech Stack
-
-| Tool        | Purpose                           |
-|-------------|-----------------------------------|
-| `streamlit` | Interactive UI                    |
-| `PyMuPDF`   | PDF parsing & text extraction     |
-| `openai`    | Embeddings and response generation|
-| `faiss-cpu` | Vector search for document chunks |
+- 📤 Upload **PDF** or **TXT** files  
+- 📑 Auto-generate AI-powered **summaries**  
+- 💬 Ask questions and receive contextual answers  
+- 🧠 Generate 3 personalized **challenge questions**  
+- ✅ Get real-time **AI feedback** on your answers  
+- 🎨 Beautiful sidebar UI with emoji badges and pill tags
 
 ---
 
-## 🚀 Getting Started
+## 🧰 Tech Stack
 
-### 1. Clone the Repository
+| Technology | Purpose              |
+|------------|----------------------|
+| Python     | Core scripting       |
+| Streamlit  | Web UI               |
+| Cohere     | Language model API   |
+| dotenv     | Secure API keys      |
+| FAISS      | Text similarity (optional) |
 
-```bash
-git clone https://github.com/19anujshukla/Smart-Research-Assistant
-cd pdf-ai-assistant
+---
 
-pip install -r requirements.txt
 
-export OPENAI_API_KEY="foYE8RLxsvisp7MHNoS9fpldZgWvT86El9x2q4ZU"
+
+## 🗂️ Folder Structure
+
