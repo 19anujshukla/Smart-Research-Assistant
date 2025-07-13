@@ -2,5 +2,4 @@ streamlit
 PyMuPDF
 openai
 faiss-cpu
-faiss-cpu
 sentence-transformers
